@@ -140,7 +140,7 @@ build {
   }
 
   provisioner "file" {
-    source      = "files/99-pve.cfg"
+    source      = "ubuntu2204/files/99-pve.cfg"
     destination = "/tmp/99-pve.cfg"
   }
 
