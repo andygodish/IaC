@@ -4,7 +4,7 @@ autoinstall:
   locale: en_US
   keyboard:
     layout: us
-    variant: us
+    # variant: us
   storage:
     layout:
       name: lvm
