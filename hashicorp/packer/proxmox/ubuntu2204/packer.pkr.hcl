@@ -24,7 +24,7 @@ variable "proxmox_password" {
 
 variable "proxmox_storage_format" {
   type    = string
-  default = "raw"
+  default = "qcow2"
 }
 
 variable "proxmox_storage_pool" {
