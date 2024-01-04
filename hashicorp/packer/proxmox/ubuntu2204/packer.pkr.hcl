@@ -114,6 +114,7 @@ build {
     inline = [
       "while [ ! -f /var/lib/cloud/instance/boot-finished ]; do echo 'Waiting for cloud-init...'; sleep 1; done",
       "sudo rm -f /etc/cloud/cloud.cfg.d/99-installer.cfg", 
+      "ip={{ user `vm_ip` }}::{{ user `vm_gateway` }}:{{ user `vm_netmask` }}::::{{ user `vm_dns` }} ",
       "sudo cloud-init clean", 
       "sudo passwd -d ubuntu"
     ]
