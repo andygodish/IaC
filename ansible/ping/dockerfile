@@ -1,0 +1,24 @@
+FROM docker.io/andygodish/base-python-3.11-slim-bookworm-ansible:latest as dev
+
+USER root
+
+# Avoid warnings by switching to noninteractive
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update -y && \
+    apt autoremove -y && \
+    apt clean -y && \
+    rm -rf /var/lib/apt/lists/*
+
+# Switch back to dialog for any ad-hoc use of apt-get
+ENV DEBIAN_FRONTEND=dialog
+
+USER appuser
+
+WORKDIR /home/appuser/app
+
+FROM dev AS prod
+
+COPY . .
+
+CMD ["ansible-playbook", "main.yaml"]
