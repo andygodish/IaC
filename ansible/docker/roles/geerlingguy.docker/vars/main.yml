@@ -1,0 +1,10 @@
+---
+docker_users:
+- "{{ ansible_user }}"
+docker_install_compose_plugin: true
+docker_install_compose: false
+docker_packages:
+  - "docker-{{ docker_edition }}"
+  - "docker-{{ docker_edition }}-cli"
+  - "docker-{{ docker_edition }}-rootless-extras"
+  - "containerd.io"
