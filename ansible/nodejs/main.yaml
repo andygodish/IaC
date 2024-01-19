@@ -1,6 +1,6 @@
 ---
-- name : Install Docker on Linux
+- name : Install NodeJS on Linux
   hosts: all
   become: true
   roles:
-  - geerlingguy.docker
+  - geerlingguy.nodejs
