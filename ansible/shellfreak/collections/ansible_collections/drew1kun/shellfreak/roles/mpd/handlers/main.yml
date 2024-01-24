@@ -1,0 +1,20 @@
+---
+# handlers file for mpd
+
+# Linux
+- name: Restart mpd service
+  ansible.builtin.service:
+    name: mpd
+    state: restarted
+    enabled: true
+  when: mpd_autostart
+  become: true
+
+
+# MacOS
+- name: Restart mpd service with brew services command
+  ansible.builtin.command: brew services restart mpd
+  environment:
+    PATH: "/opt/homebrew/bin:/usr/local/bin:{{ ansible_env.PATH }}"
+  when: mpd_autostart
+  become: false

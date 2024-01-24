@@ -1,0 +1,12 @@
+*.key
+*.swp
+.DS_Store
+roles/.DS_Store
+*.tar.gz
+ansible.cfg
+collections
+*.pyc
+*.retry
+test/results
+galaxy-publish.yml
+galaxy-publish-ci.yml

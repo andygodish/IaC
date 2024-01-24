@@ -1,0 +1,7 @@
+provider "azurerm" {
+  features {}
+  alias = "subscription_provider"
+}
+provider "azurerm" {
+  features {}
+}

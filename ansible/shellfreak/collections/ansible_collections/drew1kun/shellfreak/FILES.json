@@ -1,0 +1,1034 @@
+{
+ "files": [
+  {
+   "name": ".",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "LICENSE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e792fcdc0df85f29b279f554e0d4bb4e4e84cd2d0503188fc0144568d65eb97e",
+   "format": 1
+  },
+  {
+   "name": "plugins",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "23e9939164cad964c2338b8059e4d3def72eef9523e32594503efd50960fcae4",
+   "format": 1
+  },
+  {
+   "name": "meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "meta/runtime.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "31d614af22bc73249af1467426558ec857bab043e4129a4995e9131175b32b1f",
+   "format": 1
+  },
+  {
+   "name": "roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/vim",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/vim/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/vim/vars/users.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "61b74027c28a97cf30dd8edea204db780e04e31b1d84b06f9a01aa196e0ffc81",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/vars/vundle.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6dd47849b2420b1432afef8dc88f17dec4241ffc8f322247cc5ee2c9aba1157b",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/vars/system.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "debe196d1e7039c781b5a819d55a8d2c7ba9993b87e31b43bdd509eb319f4136",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/vars/plug.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ac8c41b53c118cd206c43ed92e52e8c1dd163f1e966857aabb68f0a1c873eb73",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/vim/tasks/dependencies.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0a775c28864605b4b6c4bea74fce5bfd9a9946e85dc0fec5c72cc157af32f5a8",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/tasks/darwin.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fd5b969ced00bf1ff4e2c8ec99a294ae732780d22d5698896b157d98e993cced",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/tasks/users.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "38a34d73173a93122f827942bfec6ceb8753cf5a120486f9b45a9c2921429182",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/tasks/airline.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d9cc990d445d337355612e1fe921a7fc0c0209be633255445f0abd8dc29208f8",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/tasks/vundle.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "16961fc118ae1205cf0728a24eeb657aa13bbebdd09b4ac556d8c407cd499316",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/tasks/cleanup.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2a5912d572320e427c123e8c2e33fa065da16c51389e1d5481cb79b30a37e66d",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/tasks/linux.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ba95bf33c3be38e4f20e5c5739d3070ca5031bd2df309601f1d09c14d74bb05a",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/tasks/nvim.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4a35670f2b75fb280782a832fec8e4b8ad3eec32fe22c4c608cc2d800ec251ab",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/tasks/system.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "981f598e538e44812d268edbbfae701c7266c4738508231e529e7e4429f87e18",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/tasks/plug.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b9d797d5572fef224523f2a9b9b2b6efbff3d70724d9fa61e3dd6a8a4a10f441",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bb72d99353cd504b09cc05cac69e9d788f11086c8fff1d8eb61df40420f451aa",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/vim/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1125f6638da45bdebf62f06233597b84a8628203a8bd9401d0f587dc27ca4ff4",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "93a49d476768daf84c081432cd98be0dfac9e82cd7cca3a331f135eca3405dc1",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/vim/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6bbbd477aa32017314591c98a7039889cfd0369a9a00381f1d31f29410f707a4",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/airline-custom-themes",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/airline-custom-themes/nord.vim",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "846de807956d0a2ddf9d225a72f4733a9842f3bc0b374401b5744426c66e6ac5",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/airline-custom-themes/cipherpunk.vim",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e946db64db66bf3f3799f2bb9ee39c849127c12454ee61b602ea938284084bbc",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/airline-custom-themes/solarized_custom.vim",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b3903e249922c152aab24ec49ac63dcb0bb10b83b30a559a8c5c91c8f030ad85",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/vim",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/vim/spell",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/vim/spell/en.utf-8.spl",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1ae1c5abcf144e9f5e20d07fb12d42957717c23151d4b00cbf7825c5eb7e7acc",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/vim/colors",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/vim/colors/mustang.vim",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a2aad18a0631c52026454ae61d4e8fac91271a8a3cd11c915a88bac352117558",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/vim/colors/nord.vim",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c2d54c5bc33b6e530d2e1a6c3a7d25685bb52139b45b6448d462b856c265dcf8",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/vim/colors/solarized.vim",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8b6360751f48206bf4b0a44dd2feb9c48af656f2662e5bf62b47ebb87c277004",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/vim/colors/cipherpunk.vim",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ada0c04154ea29f8aed37713ef4f6bf22fae4e1b4326eef6cd49acd71b79675d",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/vim/after",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/vim/after/ftplugin",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/vim/after/ftplugin/xml.vim",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7f1455f113d36f82e907a7f12a1867d3fe8ae98e600fa89965947206bd423be7",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/vim/after/ftplugin/conf.vim",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1bd8592a4107fbd9104ad70bd3c95a4d27fe92e5b3e3b39a373c9fdd5be9d523",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/vim/after/ftplugin/ruby.vim",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0ae7ea136d2fd061c0fde3387dafacd7616c3d3dc86d217c285b1df4133703b0",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/vim/after/ftplugin/python.vim",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b5a48d93b4becfed3ca0b2f08c5a4d65a033ffdf184358181858dadd1cf76fc1",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/vim/after/ftplugin/vim.vim",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "74fa6c8f07872234ed2a236c5f3b94e179b1ef767380d2d11fdbb19dcac09a65",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/vim/after/ftplugin/markdown.vim",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8c6c65cfa1950cadf00feb45fb6695453eb61cc1c089f64809651b6917fe1901",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/vim/after/ftplugin/cfg.vim",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "94ed5b93b5e7dd02361f661d4d46c6a106cf2d54a444820668ab25b446d2eb08",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/vim/after/ftplugin/yaml.vim",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "845a04b334a639288ea5e0bbcc47a38131a90e3dc9f9235d0502e6b722690b16",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/vim/after/ftplugin/jenkinsfile.vim",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3945c7d0f6b2da1d0dab220346971198993fb70d2acfd06f6204542dece4e9f7",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/vim/after/ftplugin/ssh.vim",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fc93b7abe3f1fe3ac21cf6184df6395bc82df2da8ba2e59e2616f54e7c94b7d5",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/vim/after/ftplugin/html.vim",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c02e0e3cd558d357b0f39281d995d457cd1beefe2ebcc5a0e0344de53a3d12f5",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/vim/after/ftplugin/ansible.vim",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9b4bc6ac3a97ee21e76158cb855c1eab41dabc3be5ba5fbd5be5a9b60365be38",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/files/vim/after/ftplugin/sh.vim",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c09c746b679669a6d08e740327faa152e5b9c3646047aecb041740048fda951e",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/vim/templates/vimrc.command-t.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "05e4e91623f19246bfc47959f8d1b396224b2847b61e8fd6b2b0b1e6d7ba1b9e",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/templates/vimrc.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b1ea28e9c72e8703ceb0dd0c664cc9883bac12db8e6d8532265d8b6aea771834",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/templates/vimrc.asyncomplete.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6f234517d082fcd202ee9c326877a675105110832a7948fc1f7089368106a10d",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/templates/vimrc.fzf.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "056cd6a2722ca2df43e1b0b5fee0a91a737a31e786d890b3f53d5de3f451b5e7",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/templates/vimrc.plug.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "86d0db72e94db4ab9c418aa7f4d309ab6544dd12040528a7e62019358b14b1eb",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/templates/vimrc.devicons.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9522685a4046bd644328be7949d44590284875e906039f7a4bf64661c0dd6e2d",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/templates/vimrc.ctrlp.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "19b8fe3e4324a9c30a956a3452b504e5c25fadd3fe29a5066014c9232b77af03",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/templates/vimrc.ale.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fa5fbb603fc4d137188368860d52057f768b5a539897be7985caf6dac647fc8a",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/templates/vimrc.local.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6beb24b67b7952e33f5146e9776bb1698143e3890a23357ae3ed727cc7a79f87",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/templates/vimrc.emoji.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9cde28a7b177e2fb77c8bef2b2744fa7978597fcf0e23069d612896230717544",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/templates/vimrc.syntastic.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "60ceae3933dde38b9037af827d2eae25cb4b72a6ebaa0ff48850d7fdddbd4807",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/templates/vimrc.bundles.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "91b05e66831d8cc77f9748451305eafa806f6e21213b7db663e253ab35ca4763",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/templates/vimrc.commentary.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f2801f93449b529605eb9cfabe59a47f4e4795af5fa19063cf7d2ac3e6d0f73e",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/templates/vimrc.airline.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "90dabba95494386cd9a65ed9d839297421556ccd20e6c408db1e3161c50538c9",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/templates/vimrc.nerdtree.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5cf54937850d2e7e58ab0434555ee2ece44bc28938a4c92d84bc9fa84ff625a5",
+   "format": 1
+  },
+  {
+   "name": "roles/vim/templates/vimrc.signify.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c51f3a17c2bfe306656418245e4f94a46e7d509b74a40800e0230bc8fec68c88",
+   "format": 1
+  },
+  {
+   "name": "roles/.DS_Store",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "37371063ad997b0d561d6ae5eaed4691f6fd462674b359e1aa06bcb92c8f498d",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/vars/redhat.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0e286c84d012aabee62cd2d8494d11963f555de18f965738c84f4935bf5de7a7",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/vars/darwin.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "50a07356a24ec9e601eaea7eda47217bc03a83fa7b9531d02f4e0a7b7a27c23e",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/vars/debian.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "68428fc39f2ff2db7c23c916d418ea7596dad366606ae04afa0d4f081d5cdb90",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/tasks/users.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6b90ab90c1be7c0faf4c14490a7011b2acff7dc55b959297def5785d9adcf054",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/tasks/dependencies",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/tasks/dependencies/darwin.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bd9428117a19f34a9759a5699bf48f972bd0583c110fec279a3546f331eda71c",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/tasks/dependencies/linux.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b99899bcbe62b137c7c357c1a5fc1e81592f612ab1c4ea3c9a1ac00f0f36313c",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/tasks/users_colorls.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ce71bd084486eb808fca8dc797f5508dcb14d9c6bba6ad538964ed8005c78235",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/tasks/install.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "92287052f216382823680fb374022158e999609c14a2c36add2e9787b57e51df",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e00a2d53aa7f57b540457d0eb6ff92d22b11a1802d65d3d5b92e6bb019ad3c8d",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4a93ff2ed42e69cb01f2bcfc7c59153986993d3150f1b0fc96e5e2c0b648b310",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6ddfedf9ac240065b5809fe710c238bcf27bf9fc3bece365c831296c57e27e71",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2ec2f5f3bf8314d26365e73a87ddd50b0c5f4829d2d3069169dd342d6e91b353",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/files/p10k.zsh",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6cd38ec0c8cdce7535579003da540f9b050c72a6789b6096550b8586cbb06c99",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/files/colorls",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/files/colorls/file_aliases.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "dbfe7fa68fbf3c05b4536a25483376f71878aa3a9ba6df75a84f9f9e288ec275",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/files/colorls/dark_colors.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8143008973bc7cda0f0212c303f3eec05f47af75230e44061eee181756743b81",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/files/colorls/folder_aliases.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "277e777c510b2866d8c5d59ab4e725d88f2eda4dbcc5955b76e37a0d4010add7",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/files/colorls/folders.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "67cd64345891be0cbba312741ae8d39aaee71adabb04ac6c17760bb41d0309c8",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/files/colorls/light_colors.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6c6ee593c08f7fd3ac7d810088a6b0cf2d0055cd8c9bbee239e3e1ff9eada436",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/files/colorls/files.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "69c4460daf4f9e11df4f81ba76319ccd3b5bbbda369b16529e118ce33ae2d979",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/files/omz_powerlevel9k.cfg",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "68e6283744fe58cafef690dd9bc91d0c704c1b4b1c5f606f74af2f7e47c13ec0",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/templates/sudoers.d",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/templates/sudoers.d/user.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6980092e379e62bfbb691ac5c9b3a17437e4c26a7288df506d0bee980e199f94",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/templates/zprofile.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f407c0591405e97d8cd334f5abe301f6c85f20efb9982535ca3f3dda1b794e92",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/templates/zsh",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/templates/zsh/aliases.local.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1127d25b4bad29263ccfdbaf849461e3e944e833f0fe60beba34beba05cf5b65",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/templates/zsh/aliases.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a4ca3b30ebe79f42004e0cf8bef4a1b8cbbc34cc52c3123c2d329faefbbe47c1",
+   "format": 1
+  },
+  {
+   "name": "roles/ohmyzsh/templates/zshrc.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "28c2230f64fb9f46f5a2daada4e08b06b9bf990364a92c04ad32b66c7054699f",
+   "format": 1
+  },
+  {
+   "name": "roles/mpd",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/mpd/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/mpd/tasks/darwin.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "320a2166c0074adcd08693caccd1406f4dd73bdf3fb9e71befe064d16e98a5e0",
+   "format": 1
+  },
+  {
+   "name": "roles/mpd/tasks/linux.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "009c4cd7b45ec3308c830da4d5aed6481c081e2e5d288bfd4446d6066d495c60",
+   "format": 1
+  },
+  {
+   "name": "roles/mpd/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c12dfe976eebe133e5f1ffa70db1791c886ff3cf43aa4cef3cf92e3da1dbd5ef",
+   "format": 1
+  },
+  {
+   "name": "roles/mpd/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/mpd/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "076113459434ddca61dde38a1179c9fe358c2000749b3658f6d5bbd93175e284",
+   "format": 1
+  },
+  {
+   "name": "roles/mpd/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "935095cec378d2984bfa836c2128d09d64f15d56fbb9940fa3800bd1c95d7497",
+   "format": 1
+  },
+  {
+   "name": "roles/mpd/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/mpd/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7362f3649f9179459de2cb7765205d5228ec239b765bc6575fe8ffd7d70f0044",
+   "format": 1
+  },
+  {
+   "name": "roles/mpd/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/mpd/templates/ncmpcpp.conf.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a2fad4b3a24e08a0511f1b84e1e29478c0197068b3292f41a0fbc66a7f6a0b63",
+   "format": 1
+  },
+  {
+   "name": "roles/mpd/templates/mpd.conf.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fadfca88a7b98b53e8918a2320ce9987b85b99470a0876d6899dc237b0e7307c",
+   "format": 1
+  },
+  {
+   "name": "roles/mpd/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/mpd/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "31bebb7f5f27b3a56f15601e3406bccfc0fc058883ac0c1c3f4f8807ebe24249",
+   "format": 1
+  },
+  {
+   "name": "roles/tmux",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/tmux/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/tmux/vars/darwin.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a37d607569b23cc02e99bb22ae5266641dca59a6fb4f6d9cba82c8e62213d414",
+   "format": 1
+  },
+  {
+   "name": "roles/tmux/vars/linux.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "089a9c08ab9ee25ac8812a2f9636189179b9502196877adf3ff4d7fd3fb8c5b9",
+   "format": 1
+  },
+  {
+   "name": "roles/tmux/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/tmux/tasks/darwin.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b4d3069be4c23d19756f2c2ee8789880f1b50fa338178d1e0509d823ff1da2d0",
+   "format": 1
+  },
+  {
+   "name": "roles/tmux/tasks/linux.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ee737c62e30b85b59f7b3b47cc66517e32032889dcc8f8806d89994451fcbb27",
+   "format": 1
+  },
+  {
+   "name": "roles/tmux/tasks/config.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "24a767476e3a9f125ea9d1fbefcf9c901cfec7f1c4e6d37ec5a84873879716a4",
+   "format": 1
+  },
+  {
+   "name": "roles/tmux/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4a3ca2b4620998b61923daa3bdb05bebb2f03428c47e5218191bc92ca50c47b4",
+   "format": 1
+  },
+  {
+   "name": "roles/tmux/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/tmux/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "61cc8b8e4ad6942e3cb58dcd4af0cf2f01c429c24f2a8337ad8fc9c9ab088703",
+   "format": 1
+  },
+  {
+   "name": "roles/tmux/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ab2c46da0ea885c8601a929e1005de0b8aefe3143cb4b2757d3fb76e56bf9433",
+   "format": 1
+  },
+  {
+   "name": "roles/tmux/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/tmux/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d359cb78766b8b5c606e7745ba71c5aebb7ee4d239b5c52ce283a44be3eeeb9a",
+   "format": 1
+  },
+  {
+   "name": "roles/tmux/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/tmux/templates/tmux.conf.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "75df7e44df3d5aee89fc9cd1e57d6bbca2143514c41a6f5c820039b64c1ba6e5",
+   "format": 1
+  },
+  {
+   "name": "README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "df2820aa497d873fd1e6b5b61815ac6eb2d327dc2f6ec03f254973057d895057",
+   "format": 1
+  },
+  {
+   "name": "galaxy-publish-ci.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "eb10b5c7f36017d55f711ebb0bf0b732ea93d88b23f0ad5d66c1a62d66534b30",
+   "format": 1
+  },
+  {
+   "name": ".gitignore",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "80db487b831e8cf81415985b8a9d96e377cfb89cf7a165bf0559ebbda2914dd7",
+   "format": 1
+  },
+  {
+   "name": "ansible.cfg",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3af671a3d5b44234a4960215a17ae601cfad1d9918b5f4447c9c0d9c73b371a2",
+   "format": 1
+  }
+ ],
+ "format": 1
+}

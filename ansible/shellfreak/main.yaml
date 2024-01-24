@@ -1,0 +1,11 @@
+---
+- name : Install Shellfreak on Linux
+  hosts: all
+  become: true
+  collections:
+  - drew1kun.shellfreak
+  roles:
+  - ohmyzsh
+  - vim
+  # - mpd
+  # - tmux

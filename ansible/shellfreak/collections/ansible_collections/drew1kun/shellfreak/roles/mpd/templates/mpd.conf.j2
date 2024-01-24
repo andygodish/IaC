@@ -1,0 +1,14 @@
+{{ mpd_config_base }}
+{%
+    set mpd_config_outputs =
+    mpd_config_outputs_common + (
+    mpd_config_outputs_linux if 'Linux' in ansible_system else
+    mpd_config_outputs_macos )
+%}
+{% for output in mpd_config_outputs %}
+audio_output {
+{% for k, v in output.items() %}
+    {{ k }} "{{ v }}"
+{% endfor %}
+}
+{% endfor %}

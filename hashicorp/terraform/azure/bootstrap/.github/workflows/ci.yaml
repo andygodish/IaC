@@ -1,0 +1,50 @@
+name: CI
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+    paths-ignore:
+      - "**.md"
+      - "**.jpg"
+      - "**.png"
+      - "**.gif"
+      - "**.svg"
+      - "adr/**"
+      - "docs/**"
+      - "CODEOWNERS"
+      - ".github/**"
+  pull_request:
+    branches: [ "main" ]
+    paths-ignore:
+      - "**.md"
+      - "**.jpg"
+      - "**.png"
+      - "**.gif"
+      - "**.svg"
+      - "adr/**"
+      - "docs/**"
+      - "CODEOWNERS"
+      - ".github/**"
+
+# Before this was added, I was getting this error:
+# Error: Can't find 'action.yml', 'action.yaml' or 'Dockerfile' under
+# '/home/runner/work/golang-demoapp/golang-demoapp/.github/actions/golang/action.yaml'.
+# Did you forget to run actions/checkout before running your local action?
+permissions:
+  contents: write
+
+jobs:
+  CI:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Run unit tests
+      run: echo "Look into terratest"
+
+    - name: Semantic release
+      uses: go-semantic-release/action@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
