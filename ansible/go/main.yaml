@@ -1,0 +1,6 @@
+---
+- name : Install Golang on Linux
+  hosts: all
+  become: true
+  roles:
+  - geerlingguy.go
