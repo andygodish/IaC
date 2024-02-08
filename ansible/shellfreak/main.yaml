@@ -6,6 +6,6 @@
   - drew1kun.shellfreak
   roles:
   - ohmyzsh
-  - vim
+  # - vim
   # - mpd
   # - tmux

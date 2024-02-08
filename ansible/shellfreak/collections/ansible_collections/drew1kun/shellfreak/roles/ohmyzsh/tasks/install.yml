@@ -29,31 +29,31 @@
     - repo: https://github.com/zsh-users/zsh-syntax-highlighting.git
       dest: "{{ ohmyzsh_install_dir }}/custom/plugins/zsh-syntax-highlighting"
 
-- name: "[install] Clone Powerlevel9k theme to custom directory"
-  ansible.builtin.git:
-    repo: https://github.com/bhilburn/powerlevel9k.git
-    dest: "{{ ohmyzsh_install_dir }}/custom/powerlevel9k"
-    version: master
-    update: true
-    depth: 1
-    accept_newhostkey: true
-  become: true
-  register: ohmyzsh_pl9k_clone
-  until: ohmyzsh_pl9k_clone is succeeded
-  when: ohmyzsh_powerlevel9k is defined and true
+# - name: "[install] Clone Powerlevel9k theme to custom directory"
+#   ansible.builtin.git:
+#     repo: https://github.com/bhilburn/powerlevel9k.git
+#     dest: "{{ ohmyzsh_install_dir }}/custom/powerlevel9k"
+#     version: master
+#     update: true
+#     depth: 1
+#     accept_newhostkey: true
+#   become: true
+#   register: ohmyzsh_pl9k_clone
+#   until: ohmyzsh_pl9k_clone is succeeded
+#   when: ohmyzsh_powerlevel9k is defined and true
 
-- name: "[install] Clone powerlevel10k theme to custom directory"
-  ansible.builtin.git:
-    repo: https://github.com/romkatv/powerlevel10k.git
-    dest: "{{ ohmyzsh_install_dir }}/custom/powerlevel10k"
-    version: master
-    update: true
-    depth: 1
-    accept_newhostkey: true
-  become: true
-  register: ohmyzsh_pl10k_clone
-  until: ohmyzsh_pl10k_clone is succeeded
-  when: ohmyzsh_powerlevel10k is defined and true
+# - name: "[install] Clone powerlevel10k theme to custom directory"
+#   ansible.builtin.git:
+#     repo: https://github.com/romkatv/powerlevel10k.git
+#     dest: "{{ ohmyzsh_install_dir }}/custom/powerlevel10k"
+#     version: master
+#     update: true
+#     depth: 1
+#     accept_newhostkey: true
+#   become: true
+#   register: ohmyzsh_pl10k_clone
+#   until: ohmyzsh_pl10k_clone is succeeded
+#   when: ohmyzsh_powerlevel10k is defined and true
 
 - name: "[install] Setup zprofile for zsh"
   ansible.builtin.template:
