@@ -1,3 +1,5 @@
+# depecdencies here are used in a specific github action 
+
 FROM hashicorp/terraform:1.7
 
 # Update and install dependencies
